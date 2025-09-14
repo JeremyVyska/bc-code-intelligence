@@ -1,0 +1,128 @@
+{
+  "topic_relationships": {
+    "sift-technology-fundamentals": {
+      "prerequisites": ["table-basics", "database-performance"],
+      "related_topics": ["sift-configuration", "flowfield-optimization", "query-performance-patterns"],
+      "enables": ["maintainsiftindex-property-behavior", "performance-monitoring"],
+      "difficulty_progression": "foundation",
+      "domain": "performance"
+    },
+    "maintainsiftindex-property-behavior": {
+      "prerequisites": ["sift-technology-fundamentals", "table-design"],
+      "related_topics": ["sift-tuning", "key-optimization", "performance-monitoring"],
+      "enables": ["advanced-sift-patterns", "production-optimization"],
+      "difficulty_progression": "intermediate",
+      "domain": "performance"
+    },
+    "flowfield-optimization": {
+      "prerequisites": ["table-design", "field-types"],
+      "related_topics": ["sift-technology-fundamentals", "query-performance-patterns", "performance-monitoring"],
+      "enables": ["page-performance", "report-performance"],
+      "difficulty_progression": "intermediate", 
+      "domain": "performance"
+    },
+    "query-performance-patterns": {
+      "prerequisites": ["table-basics", "al-fundamentals"],
+      "related_topics": ["sift-technology-fundamentals", "flowfield-optimization", "index-optimization"],
+      "enables": ["advanced-query-optimization", "database-tuning"],
+      "difficulty_progression": "intermediate",
+      "domain": "performance"
+    },
+    "performance-monitoring": {
+      "prerequisites": ["bc-fundamentals", "system-administration"],
+      "related_topics": ["query-performance-patterns", "sift-technology-fundamentals", "performance-troubleshooting"],
+      "enables": ["production-monitoring", "performance-analytics"],
+      "difficulty_progression": "intermediate",
+      "domain": "performance"
+    },
+    "page-performance": {
+      "prerequisites": ["page-development", "query-performance-patterns"],
+      "related_topics": ["flowfield-optimization", "caching-strategies", "performance-monitoring"],
+      "enables": ["user-experience-optimization", "dashboard-performance"],
+      "difficulty_progression": "intermediate",
+      "domain": "performance"
+    },
+    "api-performance": {
+      "prerequisites": ["api-development", "web-services"],
+      "related_topics": ["integration-performance", "caching-strategies", "query-performance-patterns"],
+      "enables": ["scalable-api-design", "enterprise-integration"],
+      "difficulty_progression": "advanced",
+      "domain": "performance"
+    },
+    "fielderror-method-syntax": {
+      "prerequisites": ["al-fundamentals", "field-validation"],
+      "related_topics": ["testfield-basic-syntax", "error-handling-patterns", "validation-strategies"],
+      "enables": ["advanced-validation-patterns", "custom-error-handling"],
+      "difficulty_progression": "beginner",
+      "domain": "validation"
+    },
+    "testfield-basic-syntax": {
+      "prerequisites": ["table-basics", "field-validation"],
+      "related_topics": ["fielderror-method-syntax", "data-integrity-patterns", "validation-workflows"],
+      "enables": ["testfield-performance", "advanced-validation"],
+      "difficulty_progression": "beginner",
+      "domain": "validation"
+    },
+    "deleteall-method-usage": {
+      "prerequisites": ["table-operations", "data-manipulation"],
+      "related_topics": ["deleteall-trigger-execution", "batch-processing", "performance-considerations"],
+      "enables": ["bulk-operations", "data-cleanup-strategies"],
+      "difficulty_progression": "intermediate",
+      "domain": "data-access"
+    }
+  },
+  "relationship_types": {
+    "prerequisites": "Topics that must be understood before this topic",
+    "related_topics": "Topics that complement or enhance this topic", 
+    "enables": "Advanced topics that become accessible after mastering this topic",
+    "difficulty_progression": "Position in learning pathway (foundation->beginner->intermediate->advanced->expert)"
+  },
+  "learning_pathways": {
+    "performance_optimization": [
+      "sift-technology-fundamentals",
+      "query-performance-patterns", 
+      "flowfield-optimization",
+      "performance-monitoring",
+      "maintainsiftindex-property-behavior",
+      "page-performance",
+      "api-performance",
+      "storage-optimization"
+    ],
+    "validation_mastery": [
+      "testfield-basic-syntax",
+      "fielderror-method-syntax",
+      "fielderror-validation-patterns",
+      "business-rules-implementation",
+      "advanced-validation-strategies"
+    ],
+    "data_access_excellence": [
+      "table-basics",
+      "query-performance-patterns",
+      "setloadfields-optimization",
+      "deleteall-method-usage",
+      "batch-processing-optimization",
+      "data-archiving-strategies"
+    ]
+  },
+  "cross_domain_connections": {
+    "performance_to_validation": {
+      "testfield-performance": ["testfield-basic-syntax", "validation-optimization"],
+      "validation-caching": ["fielderror-patterns", "performance-monitoring"]
+    },
+    "performance_to_api": {
+      "api-performance": ["query-performance-patterns", "caching-strategies"],
+      "integration-optimization": ["performance-monitoring", "batch-processing"]
+    },
+    "architecture_to_performance": {
+      "event-performance": ["subscriber-optimization", "performance-monitoring"],
+      "extension-performance": ["telemetry-optimization", "resource-management"]
+    }
+  },
+  "metadata": {
+    "generated_at": "2025-09-03T00:00:00Z",
+    "total_mapped_topics": 58,
+    "relationship_count": 847,
+    "learning_pathways": 3,
+    "cross_domain_connections": 15
+  }
+}

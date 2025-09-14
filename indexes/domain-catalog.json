@@ -1,0 +1,106 @@
+{
+  "domains": {
+    "performance": {
+      "title": "Business Central Performance Optimization",
+      "description": "Comprehensive performance optimization patterns, techniques, and best practices for Business Central development",
+      "topic_count": 34,
+      "subdirectories": [
+        "sift-technology",
+        "sift-configuration", 
+        "queries",
+        "data-access",
+        "field-loading",
+        "events",
+        "telemetry",
+        "optimization",
+        "optimization-decisions"
+      ],
+      "key_topics": [
+        "sift-technology-fundamentals",
+        "maintainsiftindex-property-behavior",
+        "query-performance-patterns",
+        "flowfield-optimization",
+        "performance-monitoring",
+        "batch-processing-optimization",
+        "memory-optimization",
+        "api-performance",
+        "page-performance",
+        "storage-optimization"
+      ],
+      "difficulty_levels": {
+        "beginner": 5,
+        "intermediate": 20,
+        "advanced": 9
+      },
+      "tags": ["performance", "optimization", "sift", "queries", "memory", "caching", "monitoring"],
+      "sample_files": 17
+    },
+    "architecture": {
+      "title": "BC Architecture and Design Patterns",
+      "description": "Architectural patterns, design principles, and structural guidance for Business Central solutions",
+      "topic_count": 15,
+      "subdirectories": ["events", "extensions", "integration"],
+      "key_topics": ["extension-patterns", "event-architecture", "integration-patterns"],
+      "difficulty_levels": {"beginner": 3, "intermediate": 8, "advanced": 4},
+      "tags": ["architecture", "events", "extensions", "integration"]
+    },
+    "data-access": {
+      "title": "BC Data Access and Manipulation",
+      "description": "Data access patterns, table operations, and database interaction best practices",
+      "topic_count": 12,
+      "subdirectories": ["table-operations", "field-access", "queries"],
+      "key_topics": ["deleteall-patterns", "setloadfields-optimization", "table-safety"],
+      "difficulty_levels": {"beginner": 4, "intermediate": 6, "advanced": 2},
+      "tags": ["data-access", "tables", "queries", "safety"]
+    },
+    "validation": {
+      "title": "BC Validation and Error Handling",
+      "description": "Validation patterns, error handling strategies, and data integrity approaches",
+      "topic_count": 18,
+      "subdirectories": ["error-handling", "field-validation", "business-rules"],
+      "key_topics": ["fielderror-patterns", "testfield-usage", "validation-strategies"],
+      "difficulty_levels": {"beginner": 6, "intermediate": 8, "advanced": 4},
+      "tags": ["validation", "error-handling", "data-integrity", "business-rules"]
+    },
+    "api": {
+      "title": "BC API Development and Integration",
+      "description": "API design patterns, web service development, and external integration approaches",
+      "topic_count": 8,
+      "subdirectories": ["web-services", "odata", "rest-apis"],
+      "key_topics": ["api-design-patterns", "odata-optimization", "web-service-patterns"],
+      "difficulty_levels": {"beginner": 2, "intermediate": 4, "advanced": 2},
+      "tags": ["api", "web-services", "integration", "odata"]
+    }
+  },
+  "global_statistics": {
+    "total_atomic_topics": 87,
+    "total_domains": 5,
+    "total_sample_files": 25,
+    "average_topics_per_domain": 17.4,
+    "most_common_tags": [
+      {"tag": "performance", "count": 11},
+      {"tag": "validation", "count": 11}, 
+      {"tag": "optimization", "count": 7},
+      {"tag": "error-handling", "count": 6},
+      {"tag": "fielderror", "count": 6},
+      {"tag": "telemetry", "count": 6}
+    ],
+    "difficulty_distribution": {
+      "beginner": 20,
+      "intermediate": 46,
+      "advanced": 21
+    },
+    "bc_version_support": {
+      "14+": 87,
+      "18+": 15,
+      "20+": 8
+    }
+  },
+  "generation_metadata": {
+    "generated_at": "2025-09-03T00:00:00Z",
+    "pipeline_version": "BookParse-v2",
+    "atomic_topics_validated": true,
+    "tag_indexes_generated": 153,
+    "quality_score": 92
+  }
+}

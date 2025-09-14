@@ -1,0 +1,81 @@
+{
+  "framework_version": "2.0",
+  "description": "MCP Methodology Framework - Intent Recognition and Phase Loading System",
+  "intents": {
+    "performance-optimization": {
+      "phases": ["analysis-quick", "analysis-full", "performance-quick", "performance-full", "execution-validation-quick", "execution-validation-full", "verification-quick", "verification-full"],
+      "description": "Comprehensive performance analysis, optimization, real-time validation, and coverage verification",
+      "keywords": ["optimize performance", "slow code", "bottleneck", "performance issues", "speed up"]
+    },
+    "performance-analysis": {
+      "phases": ["analysis-quick", "analysis-full", "performance-quick", "performance-full", "execution-validation-quick", "execution-validation-full", "verification-quick", "verification-full"],
+      "description": "Analyze performance, apply optimizations, validate execution, and verify completeness",
+      "keywords": ["analyze performance", "performance review", "find bottlenecks", "performance audit"]
+    },
+    "code-analysis": {
+      "phases": ["analysis-quick", "analysis-full", "execution-validation-quick", "execution-validation-full", "verification-quick", "verification-full"],
+      "description": "Systematic analysis, execution validation, and coverage verification",
+      "keywords": ["analyze code", "code review", "find issues", "code audit"]
+    },
+    "optimization-review": {
+      "phases": ["analysis-quick", "analysis-full", "performance-quick", "performance-full", "execution-validation-quick", "execution-validation-full", "verification-quick", "verification-full"],
+      "description": "Review, optimize, validate execution, and verify systematically",
+      "keywords": ["optimization review", "performance tuning", "code optimization"]
+    },
+    "business-central-optimization": {
+      "phases": ["analysis-quick", "analysis-full", "performance-quick", "performance-full", "execution-validation-quick", "execution-validation-full", "verification-quick", "verification-full"],
+      "description": "Business Central AL optimization with execution validation and systematic verification",
+      "keywords": ["BC optimization", "AL performance", "business central slow", "BC bottleneck", "AL tuning"]
+    }
+  },
+  "phase_dependencies": {
+    "analysis": [],
+    "performance": ["analysis"],
+    "execution-validation": ["performance"],
+    "verification": ["execution-validation"],
+    "architecture": [],
+    "coding": ["architecture"],
+    "extensibility": ["analysis", "architecture"],
+    "api": ["architecture"],
+    "telemetry": ["architecture"],
+    "testability": ["architecture", "coding"],
+    "documentation": ["architecture", "coding"]
+  },
+  "domain_mappings": {
+    "business-central": {
+      "supported_phases": ["analysis", "performance", "verification"],
+      "knowledge_files": [
+        "domain-knowledge/business-central/patterns.md",
+        "domain-knowledge/business-central/anti-patterns.md",
+        "domain-knowledge/business-central/sift-optimization.md",
+        "domain-knowledge/business-central/flowfield-usage.md"
+      ]
+    }
+  },
+  "validation_criteria": {
+    "analysis": {
+      "module_coverage_required": true,
+      "pattern_detection_required": true,
+      "baseline_measurement_recommended": true,
+      "file_inventory_validation_required": true
+    },
+    "performance": {
+      "optimization_application_required": true,
+      "impact_estimation_required": true,
+      "business_logic_validation_required": true,
+      "infrastructure_validation_required": true
+    },
+    "execution-validation": {
+      "real_time_validation_required": true,
+      "file_modification_verification_required": true,
+      "optimization_existence_validation_required": true,
+      "fraud_detection_required": true
+    },
+    "verification": {
+      "coverage_validation_required": true,
+      "phantom_file_detection_required": true,
+      "gap_resolution_required": true,
+      "accuracy_validation_required": true
+    }
+  }
+}
