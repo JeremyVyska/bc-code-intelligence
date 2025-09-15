@@ -1,7 +1,17 @@
 ---
 title: "IsTemporary Table Safeguard Pattern for Data Protection"
-domain: "data-safety"
-difficulty: "intermediate"
+domain: data-safety
+type: code-pattern
+pattern_type: good
+category: data-safety
+severity: high
+name: istemporary-safeguard-pattern
+regex_patterns:
+  - "if\\s+not\\s+\\w+\\.IsTemporary\\s*then\\s+Error\\s*\\("
+description: "Safeguard pattern using IsTemporary to protect against unintended data operations"
+impact_level: high
+detection_confidence: high
+difficulty: intermediate
 bc_versions: "14+"
 tags: ["data-protection", "temporary-tables", "safeguards", "data-integrity", "error-prevention"]
 prerequisites: ["al-tables", "data-access-patterns"]

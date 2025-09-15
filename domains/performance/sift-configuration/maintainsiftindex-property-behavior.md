@@ -1,7 +1,14 @@
 ---
 title: "MaintainSIFTIndex Property Behavior"
-domain: "performance"
-difficulty: "intermediate"
+domain: performance
+type: knowledge-topic
+category: performance
+severity: medium
+name: maintainsiftindex-property-behavior
+description: "Behavior and performance implications of MaintainSIFTIndex property configuration"
+impact_level: medium
+detection_confidence: high
+difficulty: intermediate
 bc_versions: "14+"
 tags: ["sift", "performance", "indexing", "optimization", "table-configuration"]
 prerequisites: ["sift-basics", "table-keys"]

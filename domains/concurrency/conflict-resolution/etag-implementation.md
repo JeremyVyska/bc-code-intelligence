@@ -1,7 +1,18 @@
 ---
 title: "ETag Implementation for Optimistic Concurrency"
-domain: "concurrency"
-difficulty: "advanced"
+domain: concurrency
+type: code-pattern
+pattern_type: good
+category: concurrency
+severity: high
+name: etag-optimistic-concurrency
+regex_patterns:
+  - "ETag\\s*:=\\s*[^;]+;"
+  - "If-Match\\s*:=\\s*[^;]+;"
+description: "Implementation pattern for ETag-based optimistic concurrency control"
+impact_level: high
+detection_confidence: high
+difficulty: advanced
 bc_versions: "14+"
 tags: ["etag", "concurrency", "conflict-resolution"]
 samples: "samples/etag-implementation.md"

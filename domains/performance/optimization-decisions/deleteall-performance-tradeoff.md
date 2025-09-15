@@ -1,7 +1,14 @@
 ---
 title: "DeleteAll Performance Tradeoff"
-domain: "performance"
-difficulty: "intermediate"
+domain: performance
+type: knowledge-topic
+category: performance
+severity: high
+name: deleteall-performance-tradeoff
+description: "Performance implications and tradeoffs when using DeleteAll method"
+impact_level: high
+detection_confidence: medium
+difficulty: intermediate
 bc_versions: "14+"
 tags: ["deleteall", "performance", "optimization", "tradeoffs"]
 prerequisites: ["deleteall-method-usage", "performance-fundamentals"]

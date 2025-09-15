@@ -1,7 +1,14 @@
 ---
 title: "TestField Performance Optimization"
-domain: "performance"
-difficulty: "intermediate"
+domain: performance
+type: knowledge-topic
+category: performance
+severity: medium
+name: testfield-performance-optimization
+description: "Performance optimization strategies for TestField validation operations"
+impact_level: medium
+detection_confidence: medium
+difficulty: intermediate
 bc_versions: "14+"
 tags: ["performance", "validation", "optimization", "best-practices"]
 prerequisites: ["testfield-basic-syntax", "performance-fundamentals"]

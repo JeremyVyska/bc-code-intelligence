@@ -1,7 +1,14 @@
 ---
 title: "Subscriber Codeunit Size and Organization"
-domain: "architecture"
-difficulty: "intermediate"
+domain: architecture
+type: knowledge-topic
+category: architecture
+severity: medium
+name: subscriber-codeunit-size-optimization
+description: "Best practices for organizing and sizing event subscriber codeunits"
+impact_level: medium
+detection_confidence: medium
+difficulty: intermediate
 bc_versions: "14+"
 tags: ["codeunit-design", "organization", "maintainability", "performance"]
 prerequisites: ["codeunit-basics", "event-subscriber-patterns"]

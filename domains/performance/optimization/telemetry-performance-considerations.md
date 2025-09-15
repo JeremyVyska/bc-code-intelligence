@@ -1,7 +1,14 @@
 ---
 title: "Telemetry Performance Considerations"
-domain: "performance"
-difficulty: "advanced"
+domain: performance
+type: knowledge-topic
+category: performance
+severity: medium
+name: telemetry-performance-considerations
+description: "Performance optimization strategies for telemetry logging operations"
+impact_level: medium
+detection_confidence: medium
+difficulty: advanced
 bc_versions: "14+"
 tags: ["telemetry", "performance", "optimization", "monitoring"]
 prerequisites: ["bc-session-logmessage-methods", "custom-dimensions-best-practices"]

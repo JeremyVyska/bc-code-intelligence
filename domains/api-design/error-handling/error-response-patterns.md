@@ -1,7 +1,14 @@
 ---
 title: "Business Central API Error Response Patterns"
-domain: "api-design"
-difficulty: "intermediate"
+domain: api-design
+type: knowledge-topic
+category: api-design
+severity: high
+name: api-error-response-patterns
+description: "Standard error response patterns and HTTP status codes for Business Central APIs"
+impact_level: high
+detection_confidence: high
+difficulty: intermediate
 bc_versions: "14+"
 tags: ["error-handling", "http-status", "api-responses"]
 samples: "samples/api-error-responses.md"

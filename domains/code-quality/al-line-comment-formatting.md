@@ -1,7 +1,14 @@
 ---
 title: "AL Line Comment Formatting and Placement Patterns"
-domain: "code-quality"
-difficulty: "beginner"
+domain: code-quality
+type: knowledge-topic
+category: code-quality
+severity: low
+name: al-line-comment-formatting
+description: "Best practices for formatting and placing line comments in AL code"
+impact_level: low
+detection_confidence: low
+difficulty: beginner
 bc_versions: "14+"
 tags: ["comments", "code-quality", "readability", "maintainability"]
 prerequisites: ["al-basics"]

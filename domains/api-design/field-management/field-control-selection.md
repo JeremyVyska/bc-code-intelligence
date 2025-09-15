@@ -1,7 +1,14 @@
 ---
 title: "API Page Field Control Selection Strategy"
-domain: "api-design"
-difficulty: "intermediate"
+domain: api-design
+type: knowledge-topic
+category: api-design
+severity: medium
+name: api-field-control-selection
+description: "Strategy for selecting appropriate field controls in API page design"
+impact_level: medium
+detection_confidence: high
+difficulty: intermediate
 bc_versions: "14+"
 tags: ["field-control", "api-design", "data-exposure"]
 samples: "samples/api-field-control.md"

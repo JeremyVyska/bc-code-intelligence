@@ -1,7 +1,17 @@
 ---
 title: "SetLoadFields Filter Field Exclusion"
-domain: "performance"
-difficulty: "intermediate"
+domain: performance
+type: code-pattern
+pattern_type: good
+category: performance
+severity: medium
+name: setloadfields-filter-field-exclusion
+regex_patterns:
+  - "SetLoadFields\\s*\\([^)]*\\)[\\s\\S]*?SetRange\\s*\\([^)]*\\)"
+description: "Optimization pattern for excluding filter fields from SetLoadFields operations"
+impact_level: medium
+detection_confidence: high
+difficulty: intermediate
 bc_versions: "14+"
 tags: ["setloadfields", "filtering", "field-exclusion"]
 prerequisites: ["setloadfields-basics", "record-filtering"]

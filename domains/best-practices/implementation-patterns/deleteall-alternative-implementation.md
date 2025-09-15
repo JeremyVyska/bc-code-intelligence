@@ -1,7 +1,17 @@
 ---
 title: "DeleteAll Alternative Implementation"
-domain: "best-practices"
-difficulty: "advanced"
+domain: best-practices
+type: code-pattern
+pattern_type: good
+category: best-practices
+severity: medium
+name: deleteall-alternative-implementation
+regex_patterns:
+  - "if\\s+\\w+\\.FindSet\\(\\)\\s+then[\\s\\S]*?repeat[\\s\\S]*?\\.Delete\\(\\)[\\s\\S]*?until"
+description: "Alternative implementation patterns for DeleteAll method with better control"
+impact_level: medium
+detection_confidence: high
+difficulty: advanced
 bc_versions: "14+"
 tags: ["deleteall", "alternatives", "implementation", "patterns"]
 samples: "samples/deleteall-alternative-implementation.md"

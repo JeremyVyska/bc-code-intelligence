@@ -1,7 +1,18 @@
 ---
 title: "SetLoadFields Placement Before Filters"
-domain: "performance"
-difficulty: "beginner"
+domain: performance
+type: code-pattern
+pattern_type: good
+category: performance
+severity: medium
+name: setloadfields-placement-before-filters
+regex_patterns:
+  - "SetLoadFields\\s*\\([^)]*\\)[\\s\\S]*?SetRange\\s*\\("
+  - "SetLoadFields\\s*\\([^)]*\\)[\\s\\S]*?SetFilter\\s*\\("
+description: "Correct placement of SetLoadFields before filter operations for optimal performance"
+impact_level: medium
+detection_confidence: high
+difficulty: beginner
 bc_versions: "14+"
 tags: ["setloadfields", "placement", "filters", "order"]
 prerequisites: ["setloadfields-basics", "record-filtering"]

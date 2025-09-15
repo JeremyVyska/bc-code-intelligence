@@ -1,7 +1,14 @@
 ---
 title: "AL Compound Statement Readability Patterns"
-domain: "code-style"
-difficulty: "beginner"
+domain: code-style
+type: knowledge-topic
+category: code-style
+severity: low
+name: compound-statement-readability
+description: "Patterns for improving readability of compound statements in AL code"
+impact_level: low
+detection_confidence: low
+difficulty: beginner
 bc_versions: "14+"
 tags: ["readability", "compound-statements", "code-style", "maintainability"]
 prerequisites: ["al-syntax-basics"]

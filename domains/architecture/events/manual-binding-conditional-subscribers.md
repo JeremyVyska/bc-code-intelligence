@@ -1,7 +1,14 @@
 ---
 title: "Manual Binding for Conditional Event Subscribers"
-domain: "architecture"
-difficulty: "advanced"
+domain: architecture
+type: knowledge-topic
+category: architecture
+severity: medium
+name: manual-binding-conditional-subscribers
+description: "Runtime control over event subscriber activation through manual binding"
+impact_level: medium
+detection_confidence: high
+difficulty: advanced
 bc_versions: "16+"
 tags: ["events", "binding", "conditional", "runtime"]
 prerequisites: ["event-subscriber-basics", "binding-patterns"]

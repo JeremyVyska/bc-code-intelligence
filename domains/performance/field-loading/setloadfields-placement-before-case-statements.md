@@ -1,7 +1,17 @@
 ---
 title: "SetLoadFields Placement Before Case Statements"
-domain: "performance"
-difficulty: "advanced"
+domain: performance
+type: code-pattern
+pattern_type: good
+category: performance
+severity: medium
+name: setloadfields-placement-before-case-statements
+regex_patterns:
+  - "SetLoadFields\\s*\\([^)]*\\)[\\s\\S]*?case\\s+"
+description: "Optimal placement of SetLoadFields before case statement evaluation"
+impact_level: medium
+detection_confidence: high
+difficulty: advanced
 bc_versions: "14+"
 tags: ["setloadfields", "case-statements", "conditional-logic", "advanced"]
 prerequisites: ["setloadfields-placement-before-filters", "case-statement-patterns"]

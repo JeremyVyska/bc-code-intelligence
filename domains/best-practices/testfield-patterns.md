@@ -1,7 +1,14 @@
 ---
 title: "TestField Best Practices and Patterns"
-domain: "best-practices"
-difficulty: "intermediate"
+domain: best-practices
+type: knowledge-topic
+category: best-practices
+severity: medium
+name: testfield-best-practices
+description: "Best practice patterns for using TestField validation method effectively"
+impact_level: medium
+detection_confidence: medium
+difficulty: intermediate
 bc_versions: "14+"
 tags: ["best-practices", "validation", "code-quality", "maintainability"]
 prerequisites: ["testfield-basic-syntax", "testfield-error-handling"]

@@ -1,7 +1,14 @@
 ---
 title: "BC Session LogMessage Methods"
-domain: "performance"
-difficulty: "intermediate"
+domain: performance
+type: knowledge-topic
+category: performance
+severity: medium
+name: session-logmessage-methods
+description: "Overview of Business Central Session LogMessage methods for telemetry"
+impact_level: medium
+detection_confidence: medium
+difficulty: intermediate
 bc_versions: "14+"
 tags: ["telemetry", "logging", "session", "performance"]
 prerequisites: ["telemetry-basics"]

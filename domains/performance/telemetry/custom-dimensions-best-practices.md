@@ -1,7 +1,14 @@
 ---
 title: "Custom Dimensions Best Practices"
-domain: "performance"
-difficulty: "intermediate"
+domain: performance
+type: knowledge-topic
+category: performance
+severity: medium
+name: custom-dimensions-best-practices
+description: "Best practices for implementing custom dimensions in telemetry logging"
+impact_level: medium
+detection_confidence: medium
+difficulty: intermediate
 bc_versions: "14+"
 tags: ["telemetry", "dimensions", "analytics", "monitoring"]
 prerequisites: ["bc-session-logmessage-methods"]

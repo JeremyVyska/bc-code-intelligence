@@ -1,7 +1,14 @@
 ---
 title: "SingleInstance Subscriber Performance Impact"
-domain: "performance"
-difficulty: "intermediate"
+domain: performance
+type: knowledge-topic
+category: performance
+severity: medium
+name: singleinstance-subscriber-performance
+description: "Performance impact analysis of SingleInstance attribute in event subscribers"
+impact_level: medium
+detection_confidence: high
+difficulty: intermediate
 bc_versions: "14+"
 tags: ["events", "singleinstance", "memory", "performance"]
 prerequisites: ["event-subscriber-basics", "memory-management"]

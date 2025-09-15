@@ -1,7 +1,14 @@
 ---
 title: "Binary Operator Line Positioning and Code Readability"
-domain: "code-style"
-difficulty: "beginner"
+domain: code-style
+type: knowledge-topic
+category: code-style
+severity: low
+name: binary-operator-line-positioning
+description: "Guidelines for positioning binary operators to improve code readability"
+impact_level: low
+detection_confidence: low
+difficulty: beginner
 bc_versions: "14+"
 tags: ["code-style", "operators", "readability", "formatting", "line-breaks"]
 prerequisites: ["al-syntax", "code-formatting"]

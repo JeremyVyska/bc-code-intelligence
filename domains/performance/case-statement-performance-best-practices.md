@@ -1,7 +1,14 @@
 ---
 title: "Case Statement Performance and Best Practices"
-domain: "performance"
-difficulty: "intermediate"
+domain: performance
+type: knowledge-topic
+category: performance
+severity: medium
+name: case-statement-performance-best-practices
+description: "Performance optimization techniques for case statements in AL development"
+impact_level: medium
+detection_confidence: medium
+difficulty: intermediate
 bc_versions: "14+"
 tags: ["case", "performance", "optimization", "control-flow"]
 prerequisites: ["case-statement-syntax", "performance-fundamentals"]

@@ -1,7 +1,14 @@
 ---
 title: "AL Code Spacing and Indentation Conventions"
-domain: "code-formatting"
-difficulty: "beginner"
+domain: code-formatting
+type: knowledge-topic
+category: code-style
+severity: low
+name: al-code-spacing-conventions
+description: "Standard conventions for code spacing and indentation in AL development"
+impact_level: low
+detection_confidence: low
+difficulty: beginner
 bc_versions: "14+"
 tags: ["formatting", "indentation", "code-style", "readability"]
 prerequisites: ["al-syntax"]

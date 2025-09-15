@@ -1,7 +1,17 @@
 ---
 title: "SetLoadFields Primary Key Optimization"
-domain: "performance"
-difficulty: "intermediate"
+domain: performance
+type: code-pattern
+pattern_type: good
+category: performance
+severity: medium
+name: setloadfields-primary-key-optimization
+regex_patterns:
+  - "SetLoadFields\\s*\\([^)]*\\"No\\.\\"[^)]*\\)"
+description: "Optimization pattern for including primary key fields in SetLoadFields operations"
+impact_level: medium
+detection_confidence: high
+difficulty: intermediate
 bc_versions: "14+"
 tags: ["setloadfields", "primary-key", "memory-optimization"]
 prerequisites: ["record-variables", "primary-key-concepts"]

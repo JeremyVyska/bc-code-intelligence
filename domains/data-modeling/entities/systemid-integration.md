@@ -1,7 +1,14 @@
 ---
 title: "SystemId Integration in API Pages"
-domain: "data-modeling"
-difficulty: "intermediate"
+domain: data-modeling
+type: knowledge-topic
+category: data-modeling
+severity: medium
+name: systemid-api-integration
+description: "Integration patterns for SystemId fields in API page design"
+impact_level: medium
+detection_confidence: high
+difficulty: intermediate
 bc_versions: "14+"
 tags: ["systemid", "data-modeling", "entity-relationships"]
 samples: "samples/systemid-integration.md"

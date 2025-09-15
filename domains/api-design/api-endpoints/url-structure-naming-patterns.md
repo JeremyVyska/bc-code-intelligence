@@ -1,7 +1,14 @@
 ---
 title: "API Page URL Structure and Entity Naming Patterns"
-domain: "api-design"
-difficulty: "beginner"
+domain: api-design
+type: knowledge-topic
+category: api-design
+severity: medium
+name: api-url-structure-naming-patterns
+description: "URL structure and entity naming conventions for Business Central API pages"
+impact_level: medium
+detection_confidence: high
+difficulty: beginner
 bc_versions: "14+"
 tags: ["api-endpoints", "url-structure", "naming-conventions"]
 samples: "samples/api-url-naming.md"

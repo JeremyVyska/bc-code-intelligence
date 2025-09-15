@@ -1,7 +1,14 @@
 ---
 title: "SIFT Technology Fundamentals"
-domain: "performance"
-difficulty: "intermediate"
+domain: performance
+type: knowledge-topic
+category: performance
+severity: high
+name: sift-technology-fundamentals
+description: "Fundamental concepts and principles of SIFT technology for performance optimization"
+impact_level: high
+detection_confidence: high
+difficulty: intermediate
 bc_versions: "14+"
 tags: ["sift", "performance", "caching", "optimization", "streaming"]
 prerequisites: ["caching-basics", "database-performance"]

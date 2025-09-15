@@ -1,7 +1,14 @@
 ---
 title: "Table Event Performance in Batch Operations"
-domain: "performance"
-difficulty: "intermediate"
+domain: performance
+type: knowledge-topic
+category: performance
+severity: high
+name: table-event-batch-operation-impact
+description: "Performance impact of table events during batch processing operations"
+impact_level: high
+detection_confidence: high
+difficulty: intermediate
 bc_versions: "14+"
 tags: ["table-events", "batch-operations", "performance", "optimization"]
 prerequisites: ["table-events-basics", "batch-processing"]

@@ -1,7 +1,14 @@
 ---
 title: "API Page Source Table Key Requirements"
-domain: "performance"
-difficulty: "advanced"
+domain: performance
+type: knowledge-topic
+category: performance
+severity: high
+name: api-page-table-key-requirements
+description: "Table key configuration requirements for optimal API page performance"
+impact_level: high
+detection_confidence: high
+difficulty: advanced
 bc_versions: "14+"
 tags: ["api-pages", "table-keys", "performance"]
 samples: "samples/table-key-requirements.md"

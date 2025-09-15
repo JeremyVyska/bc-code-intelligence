@@ -1,7 +1,14 @@
 ---
 title: "OData Query Performance Optimization"
-domain: "performance"
-difficulty: "advanced"
+domain: performance
+type: knowledge-topic
+category: performance
+severity: high
+name: odata-query-optimization
+description: "Performance optimization techniques for OData queries in Business Central APIs"
+impact_level: high
+detection_confidence: high
+difficulty: advanced
 bc_versions: "14+"
 tags: ["odata", "query-performance", "api-optimization"]
 samples: "samples/odata-query-optimization.md"

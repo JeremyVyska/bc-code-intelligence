@@ -1,7 +1,14 @@
 ---
 title: "Telemetry Verbosity Strategy"
-domain: "performance"
-difficulty: "beginner"
+domain: performance
+type: knowledge-topic
+category: performance
+severity: low
+name: telemetry-verbosity-strategy
+description: "Strategy for managing telemetry verbosity levels in production environments"
+impact_level: low
+detection_confidence: medium
+difficulty: beginner
 bc_versions: "14+"
 tags: ["telemetry", "verbosity", "production", "diagnostics"]
 prerequisites: ["bc-session-logmessage-methods"]
