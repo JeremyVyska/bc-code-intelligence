@@ -1,1 +1,1 @@
-﻿["best-practices/implementation-patterns/deleteall-alternative-implementation.md","data-architecture/data-manipulation/deleteall-method-usage.md","data-architecture/table-triggers/deleteall-trigger-execution.md","performance/optimization-decisions/deleteall-performance-tradeoff.md"]
+﻿["dean-debug/deleteall-performance-tradeoff.md","dean-debug/deleteall-sql-performance.md","sam-coder/deleteall-alternative-implementation.md","sam-coder/deleteall-method-usage.md","sam-coder/deleteall-trigger-execution.md"]
