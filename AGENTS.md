@@ -6,7 +6,7 @@ This is the **knowledge content repository** for the BC Code Intelligence (bc-co
 ## What This Repo Contains
 - **BC Domain Knowledge**: 87+ atomic topics across 24 domains (performance, API design, security, etc.)
 - **Methodology Frameworks**: Step-by-step AI workflow guidance for systematic optimization
-- **Specialists Definitions**: AI persona configurations with domain expertise and behavioral constraints
+- **Specialists Definitions**: 14 AI persona configurations with domain expertise and behavioral constraints
 - **Strategic Prompts**: High-level prompts for common BC development scenarios
 - **Pure Markdown Content**: No code whatsoever - only knowledge content with YAML frontmatter
 
