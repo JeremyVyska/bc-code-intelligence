@@ -1,7 +1,7 @@
 # AGENTS.md - Repository Context for AI Assistants
 
 ## Repository Purpose
-This is the **knowledge content repository** for the Business Central Knowledge Base (BCKB) system.
+This is the **knowledge content repository** for the BC Code Intelligence (bc-code-intel) system.
 
 ## What This Repo Contains
 - **BC Domain Knowledge**: 87+ atomic topics across 24 domains (performance, API design, security, etc.)
@@ -11,7 +11,7 @@ This is the **knowledge content repository** for the Business Central Knowledge 
 - **Pure Markdown Content**: No code whatsoever - only knowledge content with YAML frontmatter
 
 ## What This Repo Does NOT Contain
-- TypeScript/JavaScript code (that's in bc-knowledgebase-mcp repository)
+- TypeScript/JavaScript code (that's in bc-code-intelligence-mcp repository)
 - MCP server implementation or protocol handling
 - Build processes, dependencies, or package.json files
 - Compiled or generated content
@@ -30,9 +30,20 @@ methodologies/            # AI workflow frameworks
 └── workflows/           # Complete optimization workflows
 
 specialists/             # AI persona definitions
-├── bc-performance-analyst.md
-├── bc-security-auditor.md
-└── [other specialists]/
+├── alex-architect.md        # Strategic Planning & Architecture
+├── casey-copilot.md         # AI-Enhanced Development Coach
+├── dean-debug.md            # Performance & Troubleshooting
+├── eva-errors.md            # Error Handling & Exception Management
+├── jordan-bridge.md         # Systems Connection & Event-Driven Design
+├── logan-legacy.md          # Legacy Code & Version Migration
+├── maya-mentor.md           # Learning & Skill Development
+├── morgan-market.md         # AppSource & ISV Business Expert
+├── quinn-tester.md          # Quality Validation & Test Design
+├── roger-reviewer.md        # Code Quality & Review Standards
+├── sam-coder.md             # Efficient Implementation Expert
+├── seth-security.md         # Security & Permission Management
+├── taylor-docs.md           # Documentation & Knowledge Management
+└── uma-ux.md                # User Experience & Interface Design
 
 prompts/                # Strategic prompts
 ├── analyze-performance.md
