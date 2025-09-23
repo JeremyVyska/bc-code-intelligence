@@ -59,7 +59,8 @@ NoSeriesMgt.SelectSeries(...)
 | Legacy Method | New Method | Conversion Notes |
 |---------------|------------|------------------|
 | `InitSeries()` | `GetNextNo()` | Simplified parameters |
-| `GetNextNo()` | `GetNextNo()` or `PeekNextNo()` | Choose based on intent |
+| `GetNextNo(..., false)` | `PeekNextNo()` | Preview only, doesn't consume |
+| `GetNextNo(..., true)` | `GetNextNo()` | Allocates and consumes number |
 | `TestManual()` | `TestManual()` | Same name, new codeunit |
 | `SelectSeries()` | `LookupRelatedNoSeries()` | Different parameter structure |
 
@@ -97,6 +98,70 @@ ActualNo := NoSeriesMgt.GetNextNo("No. Series", WorkDate(), true); // Allocate
 NextNo := NoSeries.PeekNextNo("No. Series", WorkDate()); // Peek only
 ActualNo := NoSeries.GetNextNo("No. Series", WorkDate()); // Allocate
 ```
+
+#### When to Use GetNextNo vs PeekNextNo
+
+**Use `PeekNextNo()` for**:
+- **UI Display**: Showing next number in forms before user commits
+- **Preview Operations**: Preview posting scenarios
+- **Validation Logic**: Checking number availability without consuming
+- **Form Initialization**: Displaying what number would be assigned
+- **Testing/Diagnostics**: Verifying series configuration
+
+**Use `GetNextNo()` for**:
+- **Document Creation**: Actually creating/posting business documents
+- **Final Assignment**: Committing to use the number permanently
+- **Transaction Completion**: When business logic is ready to consume the number
+- **Batch Operations**: Allocating numbers for confirmed processing
+
+**Decision Framework**:
+```al
+// Ask yourself: "Am I ready to permanently use this number?"
+if IsPreviewMode or IsDisplayOnly or IsValidationCheck then
+    NextNo := NoSeries.PeekNextNo("No. Series", WorkDate())
+else
+    NextNo := NoSeries.GetNextNo("No. Series", WorkDate());
+```
+
+#### Migration Opportunity: Add Preview Posting Support
+
+**Legacy Pattern** (many old implementations):
+```al
+// Old code often only supported final posting
+procedure PostDocument()
+begin
+    "No." := NoSeriesMgt.GetNextNo("No. Series", WorkDate(), true);
+    // ... posting logic
+end;
+```
+
+**Enhanced Pattern** (BC24+ with preview support):
+```al
+procedure PostDocument(Preview: Boolean)
+begin
+    if Preview then
+        "No." := NoSeries.PeekNextNo("No. Series", WorkDate())
+    else
+        "No." := NoSeries.GetNextNo("No. Series", WorkDate());
+    // ... posting logic
+end;
+
+procedure PreviewPosting()
+begin
+    PostDocument(true); // Uses PeekNextNo
+end;
+
+procedure FinalPosting()
+begin
+    PostDocument(false); // Uses GetNextNo
+end;
+```
+
+**Modernization Questions to Ask**:
+- Does this posting routine support preview mode?
+- Could users benefit from seeing the assigned number before committing?
+- Is there a "Preview Posting" action that should show the next number?
+- Would preview posting improve user experience in this scenario?
 
 #### Manual Testing Conversion
 **Before**:
